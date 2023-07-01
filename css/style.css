@@ -1,0 +1,110 @@
+ /* Author's custom styles
+   ========================================================================== */
+
+  /* Base Header/Footer Styles */
+
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  header .content-wrapper {
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+    /*text-align: center;*/
+    flex-flow: row wrap;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-around;
+
+
+  }
+
+
+
+  footer .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  footer .social p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Mobile Styles - Homepage */
+  /* HERO AREA */
+
+  .hero-area {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* ASIDE */
+
+  aside {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* FEATURES */
+
+  .features {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .features .features-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  /* REVIEWS */
+  .reviews {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* ***** A B O U T ****** */
+
+  .mission {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .contact-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* ***** F A Q ****** */
+
+  .faq {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .faq .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+  }
