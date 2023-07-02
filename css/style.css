@@ -193,3 +193,120 @@
    .contact-content p {
     margin: 0;
    }
+
+   @media only screen and (min-width: 768px) {
+      /* Tablet Styles */
+      .content-wrapper {
+        max-width: 640px;
+        margin: 100px 0;
+      }
+
+      header .content-wrapper {
+        width: 100%;
+        justify-content: space-between;
+      }
+
+      header nav {
+        width: 20%;
+      }
+
+      header nav ul {
+        justify-content: space-between;
+      }
+
+      aside .content-wrapper {
+        margin: 50px 0;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+      }
+
+      aside .content-wrapper form, aside .content-wrapper .form-description {
+        width: 40%;
+        margin: 0;
+      }
+
+      .features .features-item-description {
+        width: 50%;
+      }
+
+      .features article {
+        display: flex;
+        align-items: center;
+        flex-flow: column wrap;
+        flex-basis: 50%;
+      }
+
+      .reviews article {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .reviews article div {
+        width: 49%;
+      }
+
+      footer .content-wrapper {
+        width: 65%;
+        margin: 100px 0;
+      }
+
+      footer .copyright {
+        width: 100%;
+      }
+
+      footer .contact {
+        margin-bottom: 0;
+      }
+
+      .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      /* About */
+
+      .mission-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-top: 20px;
+      }
+
+      .mission-content p {
+        width: 45%;
+       
+      }
+
+      .contact-section .content-wrapper h2 {
+        width: 80%;
+      }
+
+      .contact-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+
+      /* FAQ */
+      .faq h2 {
+        width: 100%;
+      }
+
+      .faq .content-wrapper {
+        justify-content: space-between;
+      }
+
+      .faq-content {
+        flex-basis: 45%;
+      }
+
+      .faq h2 {
+        width: 100%;
+      }
+   }
+
+   @media only screen and (min-width: 1200px) {
+    /* Desktop Styles */
+ }
