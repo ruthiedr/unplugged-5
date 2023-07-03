@@ -140,6 +140,13 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
+  }
+
+  .social .social-icons p a i{
+    color:#527158;
+    font-size: 2em;
+    
   }
 
   footer .social p {
