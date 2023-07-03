@@ -9,8 +9,11 @@ html {
    }
     
   body {
+    font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
     color:#e2e3ed;
+    text-align: left;
+    background-color: #202322;
    }
     
   ul, ol {
@@ -29,6 +32,7 @@ html {
     font-family: 'Poppins', sans-serif;
     font-size: 1.9em;
     font-weight: 500;
+    margin: 0;
    }
 
 
@@ -38,11 +42,12 @@ html {
     font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
     font-weight: 500;
+    margin: 20px 0;
    }
     
   p {
-     font-size: 1.1em;
-     line-height: 1.1em;
+     font-size: .875em;
+     line-height: 1.285em;
    }
     
   img {
@@ -143,8 +148,8 @@ html {
     
   }
 
-  .social .social-icons p a i{
-    color:#527158;
+  footer .social-icons p i{
+    color: #527158;
     font-size: 2em;
     
   }
@@ -153,7 +158,9 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+   
   }
+
 
   footer .copyright {
     margin: 20px 0;
@@ -182,7 +189,7 @@ html {
 
   .hero-area h1 {
     font-size: 2.25em;
-    line-height: 2.7em;
+    line-height: 1.2;
     font-weight: 500;
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
   }
@@ -195,9 +202,30 @@ html {
     background: #527158;
   }
 
-  input {
-    font-size: 1.1em;
+  aside .form {
+    margin-top: 30px;
+  }
+
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+  }
+   
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
   }
 
   /* FEATURES */
@@ -217,13 +245,13 @@ html {
   }
 
   .features p {
+    text-align: center;
     margin: 0;
   }
 
   .features .features-items {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-flow: row wrap;
   }
 
@@ -290,6 +318,10 @@ html {
     background: #2a423a;
   }
 
+  .contact-content p {
+    margin: 0;
+  }
+
   /* ***** F A Q ****** */
 
   .faq {
@@ -308,7 +340,7 @@ html {
 
   .faq h2 {
     margin-bottom: 40px;
-    line-height: 1.9em;
+    line-height: 1;
   }
 
   .faq-content {
@@ -316,41 +348,18 @@ html {
   }
 
   .faq-content h4 {
-    line-height: 1.5em;
+    line-height: 1.333;
   }
 
-  .faq h4, p {
+  /*.faq h4, p {
     font-size: 1.1em;
     line-height: 1.1em;
-  }
+  }*/
 
 
 
-  aside .form {
-    margin-top: 30px;
-  }
-   
-  input[type=text] {
-    box-sizing: border-box;
-    width: 100%;
-    color: #2a423a;
-    font-style: italic;
-    padding: 1em;
-  }
-   
-  input[type=button] {
-    width: 100%;
-    padding: 20px 0;
-    margin-top: 20px;
-    background-color: #2a423a;
-    font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    font-size: 1.125em;
-    color: #e2e3ed;
-    border: none;
-    text-align: center;
-    text-transform: uppercase;
-  }
+ 
+
 
 
 
@@ -425,7 +434,7 @@ html {
       }
 
       .features .features-item-description {
-        width: 50%;
+        width: 62%;
       }
 
       .features article {
@@ -433,6 +442,10 @@ html {
         align-items: center;
         flex-flow: column wrap;
         flex-basis: 50%;
+      }
+
+      .features i {
+        margin-bottom: 30px;
       }
 
 
@@ -457,7 +470,13 @@ html {
 
       footer .content-wrapper {
         width: 65%;
-        margin: 100px 0;
+        /*margin: 100px 0;*/
+      }
+
+      footer .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
       }
 
       footer .copyright {
@@ -468,18 +487,24 @@ html {
         margin-bottom: 0;
       }
 
-      footer .contact h4 {
+      footer h4 {
         font-size: 1.5em;
+        margin-bottom: 40px;
       }
 
-      .footer-content {
+      /*.footer-content {
         display: flex;
         justify-content: space-between;
         align-items: center;
-      }
+      }*/
 
       footer p {
         line-height: 1.1em;
+      }
+
+      footer .social-icons {
+        width: 12.5em;
+        justify-content: space-between;
       }
 
       /* About */
@@ -497,7 +522,7 @@ html {
       }
 
       .map figure {
-       padding-bottom: 54%;
+       padding-bottom: 45.5%;
       }
 
       .contact-section .content-wrapper h2 {
@@ -508,6 +533,10 @@ html {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+      }
+
+      .contact-content h4 {
+        font-size: 1.5em;
       }
 
       /* FAQ */
@@ -523,15 +552,12 @@ html {
         flex-basis: 45%;
       }
 
-      .faq h4 {
-        font-size: 0.9em;
-        line-height: 1em;
+      .faq h4,
+      .faq p {
+        font-size: .875em;
+        line-height: 1.125;
       }
 
-      .faq p {
-        font-size: 0.9em;
-        line-height: 1em;
-      }
 
    }
 
@@ -545,12 +571,9 @@ html {
       padding: 15px 0;
     }
 
-    h1 {
-      font-size: 3.75em;
-    }
-
     .hero-area h1 {
       width: 80%;
+      font-size: 3.75em;
     }
 
     h2 {
@@ -558,12 +581,12 @@ html {
     }
 
     h3, h4 {
-      font-size: 1.9em;
+      font-size: 1.875em;
     }
 
     p {
-      font-size: 1.1em;
-      line-height: 1.5em;
+      font-size: 1.125em;
+      line-height: 1.333;
     }
 
     aside .content-wrapper {
@@ -572,6 +595,10 @@ html {
 
     aside .content-wrapper .form-description, aside .content-wrapper .form {
       width: 30%;
+    }
+
+    .form-description p {
+      font-size: 1.125em;
     }
 
     .features h2 {
@@ -590,18 +617,19 @@ html {
       width: 42%;
     }
 
+    footer h4 {
+      font-size: 1.875em;
+    }
+
     /* About */
     .mission h2, .contact-section .content-wrapper h2 {
       width: 95%;
       font-size: 3em;
     }
 
-    .mission h2 {
-      font-size: 3em;
-    }
 
     .map figure {
-      padding-bottom: 47%;
+      padding-bottom: 37.5%;
     }
 
 
@@ -612,7 +640,7 @@ html {
     }
 
     .faq h4, p {
-      font-size: 1.1em;
-      line-height: 1.1em;
+      font-size: 1.125em;
+      line-height: 1;
     }
  }
