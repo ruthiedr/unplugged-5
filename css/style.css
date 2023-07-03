@@ -490,6 +490,10 @@ html {
        
       }
 
+      .map figure {
+       padding-bottom: 54%;
+      }
+
       .contact-section .content-wrapper h2 {
         width: 80%;
       }
@@ -583,11 +587,17 @@ html {
     /* About */
     .mission h2, .contact-section .content-wrapper h2 {
       width: 95%;
+      font-size: 3em;
     }
 
     .mission h2 {
       font-size: 3em;
     }
+
+    .map figure {
+      padding-bottom: 47%;
+    }
+
 
     /*FAQ*/
     .faq h2 {
