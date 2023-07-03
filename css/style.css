@@ -201,9 +201,7 @@ html {
     background: url('../img/unplugged-retreat-features.jpg');
     background-size: cover;
     background-position: center;
-    min-height: 500px;
-    display: flex;
-    justify-content: center;
+  
 
   }
 
@@ -227,7 +225,8 @@ html {
     margin: 30px 0;
   }
 
-  .fontawesome-icon {
+  .features i {
+    font-size: 3.75em;
     margin-bottom: 40px;
   }
 
